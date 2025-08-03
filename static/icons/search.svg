@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="search.svg"
+   id="svg6"
+   version="1.1"
+   width="24"
+   viewBox="0 0 24 24"
+   height="24">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="14.953202"
+     inkscape:cx="9.2394348"
+     inkscape:zoom="11.6875"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="709"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     fill="none"
+     d="M0 0h24v24H0V0z" />
+  <path
+     style="stroke-width:1.17281"
+     id="path4"
+     d="M 16.665103,14.897813 H 15.738315 L 15.409833,14.581248 C 16.817612,12.939802 17.544965,10.7004 17.146094,8.3203021 16.594714,5.0608585 13.873007,2.4579934 10.588189,2.0593564 5.6257658,1.4496763 1.4493537,5.6236401 2.0593914,10.583154 c 0.3988708,3.282893 3.0032627,6.003004 6.2646182,6.554061 2.3814944,0.398637 4.6222094,-0.328289 6.2646184,-1.735243 l 0.316751,0.328289 v 0.926245 l 4.985885,4.982962 c 0.480991,0.48071 1.267001,0.48071 1.747993,0 0.480991,-0.480709 0.480991,-1.266258 0,-1.746968 z m -7.0388972,0 c -2.9211424,0 -5.2791729,-2.356648 -5.2791729,-5.2760784 0,-2.9194297 2.3580305,-5.2760778 5.2791729,-5.2760778 2.9211422,0 5.2791732,2.3566481 5.2791732,5.2760778 0,2.9194304 -2.358031,5.2760784 -5.2791732,5.2760784 z" />
+</svg>

@@ -1,0 +1,30 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+
+before_script:
+  - git clone -b 5.14 git://code.qt.io/qt/qtmqtt.git
+  - cd qtmqtt
+  - qmake && make -j$(nproc)
+  - sudo make install && cd ..
+
+desktop:
+  image: rabits/qt:5.14-desktop
+  variables:
+    QMAKESPEC: linux-g++
+  script:
+    - qmake
+    - make -j$(nproc)
+  artifacts:
+    paths:
+    - 'UFPA Digital'
+
+android:
+  image: rabits/qt:5.14-android
+  variables:
+    QMAKESPEC: android-clang
+  script:
+    - qmake 
+    - make -j$(nproc) apk
+  artifacts:
+    paths:
+    - android-build/build/outputs/
