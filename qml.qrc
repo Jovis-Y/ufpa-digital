@@ -98,5 +98,6 @@
         <file>static/images/ufpa-image.jpg</file>
         <file>static/icons/social/linkedin.svg</file>
         <file>static/icons/audio/pause.svg</file>
+        <file>static/icons/campus.svg</file>
     </qresource>
 </RCC>

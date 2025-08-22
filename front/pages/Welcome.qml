@@ -111,6 +111,14 @@ Page {
                 text: model.title
                 icon.source: model.sourceIcon
                 highlighted: isSelected
+                function isVisibleForCampus(nameId) {
+                    var exclusivosBelem = ["opportunity", "ru", "radio"]
+                    if (exclusivosBelem.indexOf(nameId) !== -1)
+                        return campusSelecionado === "Belém"
+                    return true
+                }
+                visible: isVisibleForCampus(model.nameId)
+                height: visible ? undefined : 0
 
                 onClicked: {
                     if (!isSelected) {

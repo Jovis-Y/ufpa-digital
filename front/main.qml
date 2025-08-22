@@ -19,6 +19,7 @@ ApplicationWindow {
     }
     property var totemEnable: option(new RegExp("^--totem$"))
     property var filterModules: option(new RegExp("^--modules=+"))
+    property string campusSelecionado: "Belém" // valor padrão
     property bool isDarkMode: Material.theme === Material.Dark
     id: application
 

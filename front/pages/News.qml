@@ -18,7 +18,7 @@ PageApp {
             repeater.itemAt(listModel.count - 1).model.reload()
         }
     }
-    property string baseUrl: Cf.urlRssNews
+    property string baseUrl: Cf.campiConfig[campusSelecionado].urlRssNews
     property Item contentPane
     title: qsTr('Notícias')
 

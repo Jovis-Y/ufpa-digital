@@ -58,7 +58,7 @@ PageApp {
                         boundsBehavior: Flickable.OvershootBounds
                         model: XmlListModelRss {
                             id: xmlRss
-                            baseUrl: Cf.urlRssNews
+                            baseUrl: Cf.campiConfig[campusSelecionado].urlRssNews
                         }
                         delegate: Item {
                             height: view.height
@@ -134,6 +134,7 @@ PageApp {
             Panel {
                 headerText: qsTr("Oportunidades")
                 width: parent.width
+                visible: campusSelecionado === "Belém"
                 Item {
                     id: opportunitiesSection
                     width: parent.width
@@ -162,7 +163,7 @@ PageApp {
                         boundsBehavior: Flickable.OvershootBounds
                         model: XmlListModelRss {
                             id: xmlRssOpport
-                            baseUrl: Cf.urlRssOpportunity
+                            baseUrl: Cf.campiConfig[campusSelecionado].urlRssOpportunity
                         }
 
                         delegate: Item {
@@ -241,6 +242,7 @@ PageApp {
                 id: panelFood
                 headerText: qsTr("Cardápio do Dia")
                 width: page.width
+                visible: campusSelecionado === "Belém"
                 Busy {
                     id: busyFood
                     anchors.horizontalCenter: parent.horizontalCenter
