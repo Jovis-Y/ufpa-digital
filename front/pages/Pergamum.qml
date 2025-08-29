@@ -2,5 +2,5 @@ import "../components"
 
 PageWeb {
     title: qsTr('Pergamum UFPA')
-    url: 'http://bibcentral.ufpa.br/pergamum/mobile/index.php'
+    url: 'https://bibcentral.ufpa.br/login?redirect=/
 }
